@@ -2,7 +2,13 @@
 * @param {number} num - The number to iterate up to
 * @param {number[]} - An array of even numbers from 0 to {num}
 */
-function evenNumbers() {
+function evenNumbers(num, arr) {
+  let arr = []
+  for(i = 0; i < num; i++){
+    if (i%2===0){
+      arr.push([i])
+    }
+  }
 
 }
 
